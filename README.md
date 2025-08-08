@@ -1,69 +1,191 @@
-# 🧠 AI & Python Learning Tasks
-
-This repository documents my hands-on learning journey through three major topics: **Generative AI**, **FastAPI**, and **Pydantic**. These tasks were part of a structured learning program under my instructor's guidance, and I’ve completed each with code, practical testing, and reflection.
+## 📜 Tasks List & Details
 
 ---
 
-## 📌 1. Generative AI
+### **Task 01: Research on Generative AI** ✅
+**Objective:**  
+An overview of Generative AI, including how it works, key concepts like **deep learning**, **transformers**, and **diffusion models**, plus applications in **text, image, and audio** generation.
 
-### ✅ What I Did:
-- Learned the basics of Artificial Intelligence and Generative AI.
-- Wrote a detailed blog post explaining concepts in simple terms.
-- Created example files and pushed them here.
+**What I Did:**  
+- Studied working principles and architectures.
+- Wrote a blog simplifying concepts for beginners.
+- Created example Python files demonstrating text/image generation.
 
 🔗 **GitHub Folder**: [`01GenAi`](./01GenAi)  
 📝 **Medium Blog**: [What is AI and Generative AI – A Beginner’s Guide](https://medium.com/@shuremsyed41/what-is-ai-and-generative-ai-a-complete-beginners-guide-1bdf9df6917b)
-
+**✅ Status:** Completed
 ---
 
-## 📌 2. FastAPI
+### **Task 02: Learn About FastAPI** ✅
+**Objective:**  
+Introduction to **FastAPI**, a modern Python framework for building efficient APIs with async support, automatic docs, and type hints.
 
-### ✅ What I Did:
-- Read and understood the FastAPI tutorial from Panaverse’s repo.
-- Ran the code locally and understood each line of it.
-- Documented code and examples.
+**What I Did:**  
+- Studied Panaverse FastAPI material.
+- Built small APIs locally to understand structure.
+- Tested async endpoints.
 
 🔗 **GitHub Folder**: [`02Fastapi`](./02Fastapi)  
 📖 **Original Resource**: [FastAPI Intro - Panaverse](https://github.com/panaversity/learn-agentic-ai/tree/main/04_daca_agent_native_dev/01_intro_fastapi)
-
+**✅ Status:** Completed
 ---
 
-## 📌 3. Pydantic
+### **Task 03: Pydantic** ✅
+**Objective:**  
+Learn Pydantic for **data validation** and **type enforcement** in Python.
 
-### ✅ What I Did:
-- Learned how to use Pydantic for data validation in Python.
-- Practiced the concepts using examples.
-- Tested validation scenarios locally.
+**What I Did:**  
+- Used `BaseModel`, `EmailStr`, and `constr` for validation.
+- Tested validation failures & success cases.
+
 
 🔗 **GitHub Folder**: [`03Pydantic`](./03Pydantic)  
 📖 **Reference**: [Pydantic Validation - Panaverse](https://github.com/panaversity/learn-agentic-ai/blob/main/04_daca_agent_native_dev/01_intro_fastapi/02_pydantic_validation/readme.md)
-
+**✅ Status:** Completed
 ---
-📌 4. FastAPI Parameters
-✅ What I Did:
-Explored path parameters, query parameters, and request body in FastAPI.
+---
 
-Practiced using Path, Query, and Body from FastAPI.
+### **Task 04: FastAPI Parameters** ✅
+**Objective:**  
+Use **query parameters**, **path parameters**, and **request bodies** in FastAPI.
 
-Learned how to validate incoming data using constraints (like min, max, optional).
+**What I Did:**  
+- Practiced `Path`, `Query`, and `Body` imports.
+- Added constraints like min/max values.
 
-Understood how these parameters work together in API routes.
 
 🔗 GitHub Folder: 04Fastapi_parameters
 📖 Original Resource: API Parameters - Panaverse
+**✅ Status:** Completed
 
-## 🚀 What's Next?
 
-I'm continuing to explore more advanced Python and AI concepts and will keep updating this repo with future tasks and projects.
+### **Task 05: Dependency Injection in FastAPI** ✅
+**Objective:**  
+Understand FastAPI’s built-in **dependency injection** system.
+
+**What I Did:**  
+- Passed shared resources like DB connections into endpoints.
+- Created reusable auth & config dependencies.
+
+🔗 Folder: [`05Dependency_Injection`](./05Dependency_Injection)
+**✅ Status:** Completed
+---
+
+### **Task 06: Task Tracker API** ✅
+**Objective:**  
+Build an API that manages **Users** and **Tasks** with Pydantic validation.
+
+**What I Did:**  
+- Models: `UserCreate`, `UserRead`, `Task`.
+- Endpoints: CRUD for users & tasks.
+- Validations: Email format, username length, due date ≥ today.
+
+🔗 Folder: [`06Task_Tracker_API`](./06Task_Tracker_API)
+**✅ Status:** Completed
+---
+
+### **Task 07: OpenAI Agent SDK** ✅
+**Objective:**  
+Learn to build **AI Agents** using OpenAI’s SDK.
+
+**What I Did:**  
+- Registered tools.
+- Implemented basic agent execution.
+
+🔗 Folder: [`07OpenAI_Agent_SDK`](./07OpenAI_Agent_SDK)
+**✅ Status:** Completed
+---
+
+### **Task 08: What is an LLM?** ✅
+**Objective:**  
+Explain **Large Language Models** – what they are, how they work, and real-world uses.
+
+**What I Did:**  
+- Compared GPT-like models.
+- Connected concepts to ChatGPT.
+
+🔗 Folder: [`08LLM`](./08LLM)
+**✅ Status:** Completed
+---
+
+### **Task 09: What is Function / Tool Calling?** ✅
+**Objective:**  
+Research how **function/tool calling** works and powers agents.
+
+**What I Did:**  
+- Wrote examples of calling external APIs via agents.
+- Compared use cases with normal prompts.
+
+🔗 Folder: [`09Function_Tool_Calling`](./09Function_Tool_Calling)
+**✅ Status:** Completed
+---
+
+### **Task 10: Crypto Market Rate Agent** ✅
+**Objective:**  
+Create an agent to fetch current crypto market rates.
+
+**What I Did:**  
+- Used Binance & CoinLore APIs.
+- Integrated into agent workflow.
+
+🔗 Folder: [`10Crypto_Agent`](./10Crypto_Agent)
+**✅ Status:** Completed
+---
+
+### **Task 11: Inner Working of Function Tools** ✅
+**Objective:**  
+Understand inner functioning of tool-calling inside agents.
+
+**What I Did:**  
+- Explored docstrings and function tool responses.
+- Tested prompts like:
+  - Weather queries.
+  - Restaurant searches.
+  - Sending emails & scheduling meetings.
+
+🔗 Folder: [`11Inner_Working_Function_Tools`](./11Inner_Working_Function_Tools)
+**✅ Status:** Completed
+---
+
+### **Task 12: Hands-On on Hands-Off** ✅
+**Objective:**  
+Create poetry agents & analysts.
+
+**What I Did:**  
+- Made **Poet Agent**.
+- Three **Analyst Agents**.
+- One **Triage Agent** that routes to the correct analyst.
+
+🔗 Folder: [`12Hands_On_Hands_Off`](./12Hands_On_Hands_Off)
+**✅ Status:** Completed  
+---
+
+## 📌 Class Assignments
+
+### Translator Agent ✅
+- Built simple translator agent for multiple languages.
+**✅ Status:** Completed
+### Crypto Agent ✅
+- Same as Task 10 but implemented in class.
+**✅ Status:** Completed
+### Shopping Agent ⏳ (Pending)  
+- Will use product API with tool calling.
+**✅ Status:** Completed
+### Input Guardrails ✅
+- Class timing change guardrail.
+- Father temperature restriction guardrail.
+- Gatekeeper school access guardrail.
+**✅ Status:** Completed
+---
+
+## 🚀 Next Steps
+- Complete **Shopping Agent**.
+- Work on **multi-agent orchestration and context management **.
 
 ---
 
-### 🙌 About Me
-
-**👨‍💻 Name**: Syed Shurem Ali  
-🔗 [LinkedIn](https://www.linkedin.com/in/syed-shurem-ali-5a55852a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)←
-
----
+## 🙌 About Me
+**Name:** Syed Shurem Ali  
+🔗 [LinkedIn](https://www.linkedin.com/in/syed-shurem-ali-5a55852a0)
 
 > _"Learning by doing is the best way to grow — and I’m just getting started!"_
-
