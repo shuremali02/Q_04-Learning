@@ -177,6 +177,51 @@ Create poetry agents & analysts.
 - Gatekeeper school access guardrail.
 **✅ Status:** Completed
 ---
+## 📌 Context Management (Agent SDK) ✅
+
+### **Objective**
+Practice using **OpenAI Agent SDK**'s **Local Context Management** feature to handle contextual data during agent execution.
+
+---
+
+### **What I Did**
+- Created **Pydantic models** for different context types:
+  - **Bank Account**
+  - **Student Profile**
+  - **Library Book**
+- Passed these models as **context** to the agent using `RunContextWrapper`.
+- Registered tools to read and display contextual data.
+- Ran and verified that the agent used context in responses.
+
+---
+
+### **Example Code**
+```python
+# 1. BANK ACCOUNT CONTEXT
+bank_account = BankAccount(
+    account_number="ACC-789456",
+    customer_name="Fatima Khan",
+    account_balance=75500.50,
+    account_type="savings"
+)
+
+# 2. STUDENT PROFILE CONTEXT
+student = StudentProfile(
+    student_id="STU-456",
+    student_name="Hassan Ahmed",
+    current_semester=4,
+    total_courses=5
+)
+
+# 3. LIBRARY BOOK CONTEXT
+library_book = LibraryBook(
+    book_id="BOOK-123",
+    book_title="Python Programming",
+    author_name="John Smith",
+    is_available=True
+)
+🔗 Folder: ContextManagement
+**✅ Status:** Completed
 
 ## 🚀 Next Steps
 - Complete **Shopping Agent**.
