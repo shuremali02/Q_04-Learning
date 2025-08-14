@@ -222,6 +222,7 @@ library_book = LibraryBook(
 )
 🔗 Folder: ContextManagement
 **✅ Status:** Completed
+---  
 
 ## 🚀 Next Steps
 - Complete **Shopping Agent**.
