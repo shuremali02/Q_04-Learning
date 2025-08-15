@@ -220,22 +220,31 @@ library_book = LibraryBook(
     author_name="John Smith",
     is_available=True
 )
+```
+---
 
-
+🔗 Folder: [`ContextManagement`](./ContextManagement)
+**✅ Status:** Completed
+  
 
 ---
 
-🔗 GitHub Folder: ContextManagement
-✅ Status: Completed
-
-## 🚀 Next Steps
-- Complete **Shopping Agent**.
-- Work on **multi-agent orchestration and context management **.
+## 🚀 Next Steps  
+- ✅ Complete **Shopping Agent**  
+- 🔄 Work on **multi-agent orchestration** and **context management** improvements  
 
 ---
 
-## 🙌 About Me
-**Name:** Syed Shurem Ali  
-🔗 [LinkedIn](https://www.linkedin.com/in/syed-shurem-ali-5a55852a0)
+## 🙌 About Me  
+**👤 Name:** Syed Shurem Ali  
+
+### 🌐 Social Links  
+- 💼 [LinkedIn](https://www.linkedin.com/in/syed-shurem-ali-5a55852a0)  
+- 🐙 [GitHub](https://github.com/) *(Add your username)*  
+- 📧 **Email:** *(shuremsyed41@gmail.com)*  
+
+---
 
 > _"Learning by doing is the best way to grow — and I’m just getting started!"_
+
+---
