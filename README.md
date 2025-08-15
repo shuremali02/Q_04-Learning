@@ -240,7 +240,7 @@ library_book = LibraryBook(
 
 ### 🌐 Social Links  
 - 💼 [LinkedIn](https://www.linkedin.com/in/syed-shurem-ali-5a55852a0)  
-- 🐙 [GitHub](https://github.com/) *(Add your username)*  
+- 🐙 [GitHub](https://github.com/shuremali02)*(shuremali02)*  
 - 📧 **Email:** *(shuremsyed41@gmail.com)*  
 
 ---
