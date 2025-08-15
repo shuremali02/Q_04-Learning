@@ -220,9 +220,13 @@ library_book = LibraryBook(
     author_name="John Smith",
     is_available=True
 )
-🔗 Folder: ContextManagement
-**✅ Status:** Completed
----  
+
+
+
+---
+
+🔗 GitHub Folder: ContextManagement
+✅ Status: Completed
 
 ## 🚀 Next Steps
 - Complete **Shopping Agent**.
